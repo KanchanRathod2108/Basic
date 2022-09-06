@@ -31,7 +31,7 @@ public class Utility {
 	
 	public  static  String getExcelData(int row,int cell) throws EncryptedDocumentException, IOException {
 		String data;
-		FileInputStream excel= new FileInputStream("C:/Users/Aakash/eclipse-workspace/new/TestingData");
+		FileInputStream excel= new FileInputStream("C:/Users/Aakash/Desktop/Kanchan.xlsx");
 		
 		Sheet outdata =WorkbookFactory.create(excel).getSheet("Sheet1");
 		

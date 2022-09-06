@@ -42,7 +42,7 @@ public class Testclass extends Base{
 	driver.get("https://www.saucedemo.com/");
 	
 	driver.manage().window().maximize();
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 	}
 	@BeforeMethod 
 	 
@@ -57,7 +57,7 @@ public class Testclass extends Base{
 		pageLogin.clickOnpassword(password);
 		
 		pageLogin.clickOnlogin();
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		
 	}
 	@Test
